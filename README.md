@@ -2,7 +2,7 @@
 
 #### Resumen de funcionalidad :computer:
 1. Se utiliza el NaiveBayesClassifier de NLTK para entrenar un modelo de clasificación de polaridad utilizando el corpus de movie_reviews. 
-2. Luego, definimos una función predict_sentiment que toma una oración como entrada y utiliza el modelo entrenado para predecir la polaridad de la oración (pos o neg).
+2. Luego, se define una función predict_sentiment que toma una oración como entrada y utiliza el modelo entrenado para predecir la polaridad de la oración (pos o neg).
 3. Por último, se utiliza el analizador de sentimientos de NLTK (SentimentIntensityAnalyzer) para analizar la polaridad de una oración. Este analizador utiliza un enfoque diferente al del clasificador NaiveBayesClassifier y proporciona una puntuación de polaridad en lugar de simplemente una etiqueta 'pos' o 'neg'.
 
 #### Ejecución de código ⚙️
